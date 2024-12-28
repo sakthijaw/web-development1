@@ -1,4 +1,31 @@
-label{
-    background-color: blue;
+#well{
+    background-color:burlywood;
+    font-size: medium;
+   
 
+    
 }
+ui{
+    display: flex;
+    background-color:burlywood;
+    padding: 8px;
+    justify-content: right;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 14px;
+}
+ui>li{
+    display:inline;
+    background-color: antiquewhite;
+}
+label{
+    float: left;
+    line-height: 30px;
+    padding: 20px;
+    font-size: larger;
+}
+
+
+    
